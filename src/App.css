@@ -1,0 +1,40 @@
+.app {
+  margin:3.3rem
+  
+}
+
+.central{
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  background-image: url('Images/Yoga.jpeg');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+
+}
+.bannerText{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+   text-transform: uppercase; 
+  font-weight: 900;
+  margin-bottom: 5rem;
+}
+.i1{
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width:600px) {
+  .app{
+    justify-content: center;
+    font-size:15px;
+  }
+  .btn{
+    font-size:15px;
+  }
+  .input-group> span{
+    font-size:15px;
+  }
+}
